@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ordered and unorderes list</title>
+        <meta charset="utf-8">
+        <!--pseudo classes -->
+        <style>
+            ul{
+                list-style-type: circle;
+            }
+            ol {
+                list-style-type: lower-alpha;
+            }
+        
+            ol > li:nth-child(odd) { 
+                background-color: crimson;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!-- unordered list-->
+            <ul>
+                <li>Apple</li>
+                <li>orange</li>
+                <li>Grapes</li>
+            </ul>
+        </div>
+        <div>
+            <ol>
+                <li>India</li>
+                <li>Austrialia</li>
+                <li>United Kingdom</li>
+            </ol>
+        </div>
+    </body>
+
+</html>
